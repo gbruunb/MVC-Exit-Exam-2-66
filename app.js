@@ -9,6 +9,6 @@ app.use(express.urlencoded({ extended:false })); //
 app.use(router) // use router
 app.use(express.static(path.join(__dirname,'public'))) // use static file
 
-app.listen(8080, () => {
+app.listen(3001, () => {
     console.log("Run server at port 8080"); // run server
 })
